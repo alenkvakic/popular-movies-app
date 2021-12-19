@@ -19,7 +19,7 @@
               </button>
             </div>
             <small class="ms-auto text-muted"
-              >Rating {{ movie.vote_average }}/10</small
+              >Rating <strong>{{ movie.vote_average }}/10</strong></small
             >
           </div>
         </div>
