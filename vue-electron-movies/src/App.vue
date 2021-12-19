@@ -1,28 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="container">
+      <div class="text-center user-select-none">
+        <h2 class="text-center mt-5">{{ new Date().toLocaleString('default', { month: 'long' }) }} {{ new Date().getYear() + 1900 }} Movies 🍿</h2>
+        <p>keep up with popular movie trends</p>
+      </div>
+
+      <div class="my-4 user-select-none">
+        <a href="#" class="mx-3 h4 nounderline"> Trending today</a>
+        <a href="#" class="mx-3 h4 nounderline">This week</a>
+      </div>
+    </div>
   </div>
 </template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+<style scoped>
+  .nounderline {
+    text-decoration: none;
   }
-}
-</script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
