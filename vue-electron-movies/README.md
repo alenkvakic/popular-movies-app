@@ -1,5 +1,7 @@
 # vue-electron-movies
 
+![alt text](https://i.ibb.co/1T9dwc7/electron-movies.png)
+
 ## Project setup
 ```
 npm install
