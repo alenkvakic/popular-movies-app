@@ -1,6 +1,8 @@
 # Electron and Vue playground
 This project is a Electron and Vue playground - mostly to test electrons capabilites
 
+![alt text](https://i.ibb.co/1T9dwc7/electron-movies.png)
+
 ## Project setup & how to run
 ```
 cd vue-electron-movies
